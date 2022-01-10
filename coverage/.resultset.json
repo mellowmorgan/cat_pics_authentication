@@ -1,14 +1,35 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/lenawhite/Desktop/Projects/Ruby/cat_pics/spec/models/cat_spec.rb": {
+      "/Users/lenawhite/Desktop/Projects/Ruby/cat_pics/spec/features/add_cat_pages_spec.rb": {
         "lines": [
           1,
           null,
           1,
-          2,
-          2,
-          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null
         ]
       },
@@ -19,6 +40,7 @@
           1,
           1,
           null,
+          1,
           1,
           1,
           null,
@@ -357,13 +379,13 @@
           1,
           null,
           1,
-          0,
-          0,
+          42,
+          28,
           null,
           null,
           null,
           1,
-          0,
+          1,
           0,
           0,
           null,
@@ -380,6 +402,27 @@
       "/Users/lenawhite/Desktop/Projects/Ruby/cat_pics/app/controllers/cats_controller.rb": {
         "lines": [
           1,
+          1,
+          null,
+          1,
+          11,
+          11,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
           null,
           1,
           0,
@@ -394,27 +437,6 @@
           1,
           0,
           0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          null,
-          null,
-          null,
-          1,
-          0,
-          0,
-          null,
-          null,
-          1,
-          0,
-          0,
-          null,
-          null,
-          1,
-          0,
-          0,
           0,
           null,
           0,
@@ -429,7 +451,7 @@
           null,
           1,
           1,
-          0,
+          1,
           null,
           null
         ]
@@ -438,11 +460,11 @@
         "lines": [
           1,
           1,
-          0,
-          0,
-          0,
-          0,
-          0,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           0,
           0,
@@ -450,9 +472,9 @@
           null,
           null,
           1,
-          0,
-          0,
-          0,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -462,15 +484,15 @@
           1,
           null,
           1,
-          0,
+          3,
           null,
           null,
           1,
-          0,
-          0,
-          0,
-          0,
-          0,
+          3,
+          3,
+          3,
+          3,
+          3,
           null,
           0,
           0,
@@ -480,7 +502,7 @@
           1,
           null,
           1,
-          0,
+          3,
           null,
           null
         ]
@@ -525,14 +547,14 @@
           1,
           null,
           1,
-          0,
-          0,
+          3,
+          3,
           null,
           null,
           1,
-          0,
-          0,
-          0,
+          1,
+          1,
+          1,
           null,
           null,
           null,
@@ -588,6 +610,71 @@
           null
         ]
       },
+      "/Users/lenawhite/Desktop/Projects/Ruby/cat_pics/spec/features/delete_cat_pages_spec.rb": {
+        "lines": [
+
+        ]
+      },
+      "/Users/lenawhite/Desktop/Projects/Ruby/cat_pics/spec/features/edit_cat_pages_spec.rb": {
+        "lines": [
+
+        ]
+      },
+      "/Users/lenawhite/Desktop/Projects/Ruby/cat_pics/spec/features/signin_page_spec.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/lenawhite/Desktop/Projects/Ruby/cat_pics/spec/features/signup_page_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/lenawhite/Desktop/Projects/Ruby/cat_pics/spec/models/cat_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          2,
+          null
+        ]
+      },
       "/Users/lenawhite/Desktop/Projects/Ruby/cat_pics/spec/models/user_spec.rb": {
         "lines": [
           1,
@@ -598,6 +685,6 @@
         ]
       }
     },
-    "timestamp": 1641849192
+    "timestamp": 1641854353
   }
 }
