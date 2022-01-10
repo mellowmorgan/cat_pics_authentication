@@ -1,4 +1,5 @@
 class CatsController < ApplicationController
+  before_action :authorize, only: [:new, :edit]
 
   def index
     @cats = Cat.all
@@ -13,7 +14,6 @@ class CatsController < ApplicationController
   def create
     @user = User.find(session[:user_id])
     @cat = @user.cats.new(cat_params)
-    
     if @cat.save
       redirect_to cats_path
     else

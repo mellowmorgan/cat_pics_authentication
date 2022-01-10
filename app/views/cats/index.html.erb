@@ -12,6 +12,7 @@
 
 <% if current_user %>
   <% if current_user.cats.any? %>
+    <h3>My Kitties:</h3>
     <% current_user.cats.each do |kitty| %>
       <%= link_to kitty.name, cat_path(kitty) %>
     <% end %>

@@ -1,5 +1,7 @@
 require 'rails_helper'
 
 describe Cat do
-  # Tests will go here.
+  it { should validate_presence_of :name }
+  it { should validate_presence_of :breed }
+  it { should belong_to(:user) }
 end

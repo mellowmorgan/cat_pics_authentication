@@ -1,8 +1,8 @@
-  <h1><%= @cat.name %></h1>
-  <h3><%= @cat.breed %></h3>
+<h1><%= @cat.name %></h1>
+<h3><%= @cat.breed %></h3>
 
 <% if (current_user) && (@cat.user_id == current_user.id) %>
-  <p><%= link_to "Edit", edit_cat_path(@cat) %></p>
+<p><%= link_to "Edit", edit_cat_path(@cat) %></p>
   <p><%= link_to "Delete cat", cat_path(@cat),
                           :data => {:confirm => "Are you sure?",
                                         :method => "delete"} %></p>

@@ -6,7 +6,9 @@
           1,
           null,
           1,
-          null,
+          2,
+          2,
+          2,
           null
         ]
       },
@@ -392,6 +394,8 @@
           1,
           0,
           0,
+          null,
+          0,
           0,
           null,
           0,
@@ -505,11 +509,15 @@
       "/Users/lenawhite/Desktop/Projects/Ruby/cat_pics/app/models/cat.rb": {
         "lines": [
           1,
+          1,
+          1,
+          1,
           null
         ]
       },
       "/Users/lenawhite/Desktop/Projects/Ruby/cat_pics/app/models/user.rb": {
         "lines": [
+          1,
           1,
           1,
           1,
@@ -571,6 +579,8 @@
           1,
           1,
           1,
+          1,
+          1,
           null,
           1,
           1,
@@ -588,6 +598,6 @@
         ]
       }
     },
-    "timestamp": 1641841789
+    "timestamp": 1641849192
   }
 }

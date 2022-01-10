@@ -1,5 +1,5 @@
-<% if (current_user) && (@cat.user_id == current_user.id) %>
-  <h1>Edit cat</h1>
+<% if @cat.user_id == current_user.id %>
+<h1>Edit cat</h1>
 
   <%= form_for @cat do |f| %>
     <%= f.label :name %>
@@ -8,4 +8,8 @@
     <%= f.text_field :breed %>
     <%= f.submit  %>
   <% end %>
-<% end %>
+<% else %>
+  <p>This isn't your cat</p>
+<%end%>
+
+<p><%= link_to "Return to cats", cats_path %></p>
