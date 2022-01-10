@@ -1,14 +1,23 @@
-<h1>Albums</h1>
-
-<% if @albums.any? %>
+<h1>Welcome to ACAB (All Cats Are Beautiful)</h1>
+<h1>All Cats</h1>
+<% if @cats.any? %>
   <ul>
-    <% @albums.each do |album| %>
-      <li><%= link_to album.name, album_path(album) %></li>
+    <% @cats.each do |cat| %>
+      <li><%= link_to cat.name, cat_path(cat) %></li>
     <% end %>
   </ul>
 <% else %>
-  <p>There are no albums yet.</p>
+  <p>There are no cats yet.</p>
 <% end %>
 
+<% if current_user %>
+  <% if current_user.cats.any? %>
+    <% current_user.cats.each do |kitty| %>
+      <%= link_to kitty.name, cat_path(kitty) %>
+    <% end %>
+  <% else %>
+    <p>You have no kitties.</p>
+  <% end %>
+<% end %>
 
-<p><%= link_to "Create new album", new_album_path %></p>
+<p><%= link_to "Add a new cat", new_cat_path %></p>
