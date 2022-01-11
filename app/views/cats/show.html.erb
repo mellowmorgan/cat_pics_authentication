@@ -1,5 +1,10 @@
 <h1><%= @cat.name %></h1>
 <h3><%= @cat.breed %></h3>
+<% if @url %>
+  <%= image_tag(@url, {:style => "width:300px;"}) %>
+<% else %>
+  <p>No image for this kitty</p>
+<% end %>
 
 <% if (current_user) && (@cat.user_id == current_user.id) %>
 <p><%= link_to "Edit", edit_cat_path(@cat) %></p>

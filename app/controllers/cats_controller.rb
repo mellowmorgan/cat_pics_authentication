@@ -28,6 +28,9 @@ class CatsController < ApplicationController
 
   def show
     @cat = Cat.find(params[:id])
+    cat_img = CatImage.new(@cat.breed)
+    CatImage.get_breeds_array
+    @url = cat_img.get_image_url
     render :show
   end
 

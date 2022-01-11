@@ -432,6 +432,9 @@
           1,
           0,
           0,
+          0,
+          0,
+          0,
           null,
           null,
           1,
@@ -562,36 +565,36 @@
           null
         ]
       },
-      "/Users/lenawhite/Desktop/Projects/Ruby/cat_pics/app/services/get_image_url.rb": {
+      "/Users/lenawhite/Desktop/Projects/Ruby/cat_pics/app/services/cat_image.rb": {
         "lines": [
           1,
           null,
           1,
-          0,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          134,
+          134,
+          134,
+          134,
+          null,
+          2,
+          null,
+          null,
+          1,
+          1,
           0,
           0,
           null,
           null,
           1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          null,
           1,
-          0,
-          0,
-          0,
-          null,
-          null,
-          0,
-          0,
           null,
           null
         ]
@@ -683,8 +686,27 @@
           2,
           null
         ]
+      },
+      "/Users/lenawhite/Desktop/Projects/Ruby/cat_pics/spec/services/cat_Image_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1641854353
+    "timestamp": 1641858075
   }
 }
