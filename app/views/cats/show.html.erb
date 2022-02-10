@@ -1,7 +1,7 @@
 <h1><%= @cat.name %></h1>
 <h3><%= @cat.breed %></h3>
-<% if @url %>
-  <%= image_tag(@url, {:style => "width:300px;"}) %>
+<% if @cat.kitty_photo %>
+  <%= image_tag(@cat.kitty_photo, {:style => "width:400px;"}) %>
 <% else %>
   <p>No image for this kitty</p>
 <% end %>
