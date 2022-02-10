@@ -2,7 +2,7 @@
 
 #### Created By: Morgan Waites, Frank Proulx, Christopher Neal, Matt Casperson
 
-#### Ruby on Rails app for displaying
+#### Ruby on Rails app for user authentication with cat pics.
 
 ## Technologies Used
 
