@@ -11,11 +11,13 @@
 * _Bundler_
 * _Postgres_
 * _Rails_
+* _BCrypt_
+* _Capybara_
 
 
 ## Description
 
-This project is a ruby rails app showing authentication and user log in authorization with cat pic uploads.
+This project is a Cat Pic ruby rails app showing authentication and user log in authorization with BCrypt. Users can upload cat photos.
 
 ## System Requirements
 
