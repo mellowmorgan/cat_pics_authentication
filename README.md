@@ -15,7 +15,7 @@
 
 ## Description
 
-This project is a ruby rails app showing authentication with cat pic uploads.
+This project is a ruby rails app showing authentication and user log in authorization with cat pic uploads.
 
 ## System Requirements
 
